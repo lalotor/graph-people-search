@@ -1,0 +1,73 @@
+{
+  "value": [
+    {
+      "hitsContainers": [
+        {
+          "hits": [
+            {
+              "hitId": "abc-123",
+              "rank": 1,
+              "summary": "",
+              "resource": {
+                "id": "abc-123",
+                "displayName": "John Doe",
+                "givenName": "John",
+                "surname": "Doe",
+                "companyName": "Umbrella Corp",
+                "emailAddresses": [
+                  {
+                    "address": "john.doe@umbrella.com",
+                    "rank": 1.0
+                  },
+                  {
+                    "address": "johdoe@umbrellacorp.net",
+                    "rank": 2.0
+                  }
+                ],
+                "phones": null,
+                "jobTitle": "G-Virus Head of Research",
+                "department": "Research",
+                "officeLocation": "Racoon City",
+                "additionalOfficeLocation": "Zombies free",
+                "personType": "Person",
+                "userPrincipalName": "johdoe@umbrellacorp.net",
+                "imAddress": "sip:johdoe@umbrellacorp.net",
+                "@odata.type": "#microsoft.graph.person"
+              }
+            },
+            {
+              "hitId": "xyz-987",
+              "rank": 2,
+              "summary": "",
+              "resource": {
+                "id": "xyz-987",
+                "displayName": "John Doe",
+                "givenName": null,
+                "surname": null,
+                "companyName": null,
+                "emailAddresses": [
+                  {
+                    "address": "johndoe@gmail.com",
+                    "rank": 1.0
+                  }
+                ],
+                "phones": null,
+                "jobTitle": null,
+                "department": null,
+                "officeLocation": null,
+                "additionalOfficeLocation": null,
+                "personType": "Person",
+                "userPrincipalName": "johndoe@gmail.com",
+                "imAddress": null,
+                "@odata.type": "#microsoft.graph.person"
+              }
+            }
+          ],
+          "total": 2,
+          "moreResultsAvailable": false
+        }
+      ]
+    }
+  ],
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#Collection(microsoft.graph.searchResponse)"
+}

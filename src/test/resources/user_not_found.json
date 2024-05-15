@@ -1,0 +1,13 @@
+{
+  "value": [
+    {
+      "hitsContainers": [
+        {
+          "total": 0,
+          "moreResultsAvailable": false
+        }
+      ]
+    }
+  ],
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#Collection(microsoft.graph.searchResponse)"
+}
